@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>0lycm_ Portfolio</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">0lycm_</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="mode-toggle" aria-label="Toggle Dark Mode">Dark Mode</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Introducing <strong>@0lycm_</strong> – A Visual Storyteller of Emotion, Fandom, and Passion.
+        @0lycm_ is a dedicated digital and traditional artist whose work bridges heartfelt emotion and fan-driven inspiration.
+        Specializing in fanart tribute to movies, TV shows, and beloved characters, each piece carries deep emotional resonance.
+      </p>
+      <p>
+        Their recent painting inspired by the sci-fi thriller <em>Companion</em> gained recognition from stars Jack Quaid and Sophie Thatcher.
+        Jack Quaid shared the artwork on his Instagram story, marking an important milestone.
+      </p>
+      <p>
+        @0lycm_ also explores traditional media through expressive portraits of celebrities and musical artists,
+        capturing emotional snapshots beyond mere likeness.
+      </p>
+      <blockquote>"Do what you like, and you will be at peace."</blockquote>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>Gallery</h2>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Digital">Digital</button>
+        <button class="filter-btn" data-filter="Traditional">Traditional</button>
+        <button class="filter-btn" data-filter="Mixed Media">Mixed Media</button>
+      </div>
+
+      <div id="artworks" class="gallery">
+        <!-- Artworks injected by JS -->
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>If you’re interested in commissions, freelance work, internships, or collaborations, feel free to reach out!</p>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 0lycm_ | All Rights Reserved</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
